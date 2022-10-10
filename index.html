@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+   <link rel="stylesheet" href="index.css" />
+  
+</head>
+<body>
+    <div class="mbox">
+    <div>
+    <h4>ENTER UPI PIN</h4>
+    <div class="minput">
+    <div class="input1">
+    <input type="password"  maxlength="1" id="text1"   class='reset' autofocus/>
+    <input type="password" maxlength="1"  id ="text2"  class='reset' />
+    <input type="password" maxlength="1"  id ="text3"  class='reset'/>
+    <input type="password" maxlength="1"  id ="text4"  class='reset' />
+   </div> 
+  
+   
+   <img src="show.svg" class="show" alt="show"  id='show1' onclick="handeShow(1,1,1)"/>
+   <img src="hidden.svg" class="hidden" alt="hidden" id="hidden1" onclick="handleHidden(1,1,1)"/>
+   <img src="reset.svg" onclick="resetAll()" class="btnr"  alt="reset"/>
+</div> 
+ 
+    <h4>RE-ENTER UPI PIN</h4>
+    <div class="minput">
+        <div class="input1">
+    <input type="password"  maxlength="1" id="text5"  class='reset'/>
+    <input type="password" maxlength="1"  id ="text6"  class='reset' />
+    <input type="password" maxlength="1"  id ="text7"  class='reset'/>
+    <input type="password"  maxlength="1"  id ="text8"  class='reset' />
+</div> 
+<img src="show.svg" class="show" alt="show" id='show2' onclick="handeShow(2,2,2)" />
+<img src="hidden.svg" class="hidden" alt="hidden" id="hidden2" onclick="handleHidden(2,2,2)" />
+<img src="reset.svg" onclick="resetAll()" class="btnr"  alt="reset"/>
+</div> 
+
+    <div class="keybord">
+        <p  onclick="handleNumber(1)" class="nums">1</p>
+        <p onclick="handleNumber(2)" class="nums">2</p>
+        <p onclick="handleNumber(3)" class="nums">3</p>
+        <p onclick="handleNumber(4)" class="nums">4</p>
+        <p onclick="handleNumber(5)" class="nums">5</p>
+        <p onclick="handleNumber(6)" class="nums">6</p>
+        <p onclick="handleNumber(7)" class="nums">7</p>
+        <p onclick="handleNumber(8)" class="nums">8</p>
+        <p onclick="handleNumber(9)" class="nums">9</p>
+        <img src="cancel.svg" onclick="handleClean()" alt="cancel" class="cancel" />
+        <p onclick="handleNumber(0)" class="nums">0</p>
+        <img src="done.svg"onclick="checkAll()" alt="done" class="done" />
+      
+    </div>
+  
+   
+  
+</div>
+</body>
+</html>
+
+<script src="index.js"></script>
