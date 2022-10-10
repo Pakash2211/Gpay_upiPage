@@ -5,7 +5,17 @@
 - HTML 5
 - CSS 3
 - Javascript
-- Local Storage
+
+<hr>
+
+
+
+## Feature    
+- it will reset entire pin 
+- user should validate both pins by clicking on tick mark ✅
+- delete numbers one by one 
+- Auto move to next box.
+
 <hr>
 
 
